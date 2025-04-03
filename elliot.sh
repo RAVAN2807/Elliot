@@ -273,7 +273,7 @@ menu
 fi
 }
 stop() {
-fi
+if
 if [[ $checkphp == *'php'* ]]; then
 pkill -f -2 php > /dev/null 2>&1
 killall -2 php > /dev/null 2>&1
